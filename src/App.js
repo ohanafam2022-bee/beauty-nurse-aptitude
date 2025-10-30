@@ -276,9 +276,14 @@ const BeautyNurseAptitudeTest = () => {
                   次のステップ
                 </h3>
                 <p className="text-gray-700 mb-4">{resultData.cta}</p>
-                <button className={`w-full ${resultData.color} text-white font-bold py-3 px-6 rounded-full hover:opacity-90 transition-opacity`}>
-                  無料転職相談を申し込む
-                </button>
+                <a 
+  href="https://lstep.app/form/30554/dnCnUA/44646f"
+  target="_blank" 
+  rel="noopener noreferrer"
+  className={`block w-full ${resultData.color} text-white font-bold py-3 px-6 rounded-full hover:opacity-90 transition-opacity text-center`}
+>
+  無料転職相談を申し込む
+</a>
               </div>
             </div>
 
